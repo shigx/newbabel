@@ -1,0 +1,15 @@
+.container {
+    position   : relative;
+    @width     : 100%;
+    @height    : 20px+300;
+    @background: red;
+    @var       : `"hello".toUpperCase()+'!'`;
+
+    .hello {
+        display   : block;
+        width     : @width;
+        height    : @height;
+        background: lighten(@background, 10%);
+        size      : @var ;
+    }
+}

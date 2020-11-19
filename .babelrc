@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                // "targets": {
+                //     "chrome": "70"
+                // },
+                "useBuiltIns": "entry",
+                "corejs": 3,
+                "debug": true,
+                // "modules": false //a specific module type: 'commonjs', 'amd', 'umd', 'systemjs' - 'auto' (default) which will automatically select 'false' if the current
+            }
+        ],
+        [
+            "@babel/preset-react"
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-syntax-jsx"
+    ]
+}

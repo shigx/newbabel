@@ -1,0 +1,74 @@
+@import './../../css/_common.scss';
+
+.mod-hot-lable-4u {
+    width: px2rem(710);
+    margin: 0 auto;
+    padding-top: px2rem(15);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: px2rem(18);
+    box-sizing: border-box;
+    background: linear-gradient(315deg, rgba(255, 154, 34, 1), rgba(255, 76, 14, 1));
+
+    .hot-word-panel {
+        display: block;
+        width: px2rem(150);
+        height: px2rem(60);
+        margin-bottom: px2rem(15);
+        margin-right: px2rem(20);
+        font-size: px2rem(22);
+        line-height: px2rem(61);
+        text-align: center;
+        border-radius: px2rem(40);
+        background-color: rgba($color: #fff, $alpha: 0.6);
+
+        color: #FF4C0E;
+    }
+
+    .hot-word-title {
+        display: flex;
+        width: px2rem(150);
+        height: px2rem(65);
+        font-size: px2rem(28);
+        align-items: center;
+        justify-content: center;
+        margin-bottom: px2rem(15);
+        margin-right: px2rem(20);
+        color: #fff;
+
+        .icon {
+            display: block;
+            width: px2rem(23);
+            height: px2rem(29);
+            background: url('./hot-word-icon.png') 0 0 no-repeat;
+            background-size: contain;
+            margin-right: px2rem(10);
+        }
+    }
+
+    .hot-word-title.white {
+        color: #fff;
+
+        .icon {
+            background: url('./hot-word-icon-w.png') 0 0 no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .hot-word-change {
+        display: block;
+        width: px2rem(150);
+        height: px2rem(65);
+        margin-bottom: px2rem(15);
+        font-size: px2rem(24);
+        line-height: px2rem(65);
+        text-align: center;
+        border-radius: px2rem(40);
+        background-color: rgba($color: #fff, $alpha: 0.1);
+        border: solid 1px #fff;
+        margin-right: px2rem(10);
+        color: #fff;
+        box-sizing: border-box;
+    }
+}
