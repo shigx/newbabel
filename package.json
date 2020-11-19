@@ -1,12 +1,9 @@
 {
   "private": true,
-  "name": "test",
+  "name": "new-bebel",
   "staticName": "test",
-  "version": "1.0.0",
-  "author": "",
-  "bin": {
-    "babel-test": "bin/babel-test1.js"
-  },
+  "version": "0.1.0",
+  "author": "shigaoxiang@126.com",
   "scripts": {
     "clean": "rimraf dist",
     "build": "rimraf dist && npx webpack",
